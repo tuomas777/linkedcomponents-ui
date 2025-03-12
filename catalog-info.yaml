@@ -1,0 +1,15 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: linkedcomponents-ui
+  title: Linked Events UI
+  description: A React-based user interface for managing and distributing events for various event providers in Finland, utilizing the Linked Events API.
+  annotations:
+    backstage.io/docs-url: 'https://github.com/tuomas777/linkedcomponents-ui/blob/main/README.md'
+spec:
+  type: website
+  lifecycle: unknown
+  owner: platta
+  repository: https://github.com/tuomas777/linkedcomponents-ui
+  consumesApis:
+    - linkedevents-api
