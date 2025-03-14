@@ -6,6 +6,8 @@ metadata:
   description: A React-based user interface for managing and distributing events for various event providers in Finland, utilizing the Linked Events API.
   annotations:
     backstage.io/docs-url: 'https://github.com/tuomas777/linkedcomponents-ui/blob/main/README.md'
+  tags:
+    - UI
 spec:
   type: website
   lifecycle: unknown
